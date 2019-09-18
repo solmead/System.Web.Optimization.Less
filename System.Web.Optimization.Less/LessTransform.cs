@@ -169,7 +169,7 @@ namespace System.Web.Optimization
                             "Cannot make an absolute path from '{0}' file location to '{1}'", cssFilePath, url), ex);
                     }
                 }
-                return string.Concat("url(", url, ")");
+                return string.Concat("url('", url, "')");
             });
         }
 
